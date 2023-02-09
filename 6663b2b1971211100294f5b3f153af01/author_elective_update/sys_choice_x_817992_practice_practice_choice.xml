@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="choice" table="x_817992_practice_practice" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>choice</element>
+            <name>x_817992_practice_practice</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-20 09:22:11</sys_created_on>
+            <sys_id>5227effc976021100294f5b3f153af8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>choice</sys_name>
+            <sys_package display_value="practice" source="x_817992_practice">6663b2b1971211100294f5b3f153af01</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="practice">6663b2b1971211100294f5b3f153af01</sys_scope>
+            <sys_update_name>sys_choice_x_817992_practice_practice_choice</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-20 09:22:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>one</label>
+            <language>en</language>
+            <name>x_817992_practice_practice</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-20 09:22:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a27effc976021100294f5b3f153af8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-20 09:22:11</sys_updated_on>
+            <value>one</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>two</label>
+            <language>en</language>
+            <name>x_817992_practice_practice</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-20 09:22:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5627effc976021100294f5b3f153af91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-20 09:22:11</sys_updated_on>
+            <value>two</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

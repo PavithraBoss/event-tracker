@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>num1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>num1</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+//g_form.addErrorMessage((g_form.getDecimalValue('num1')));
+// 	if(oldValue!=newValue){
+// // 		g_form.modified=false;
+// // 		g_form.fieldChanged("num1", false);
+
+// //    g_form.modifiedFields['name']=false;
+// if(g_form.modified){
+//   // apply logic
+// 	g_form.addErrorMessage('error');
+// }
+
+
+// 	}
+	
+g_form.fieldChanged("name", false);
+
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 14:09:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0884c90977821100294f5b3f153afe1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>num1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="practice" source="x_817992_practice">6663b2b1971211100294f5b3f153af01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="practice">6663b2b1971211100294f5b3f153af01</sys_scope>
+        <sys_update_name>sys_script_client_a0884c90977821100294f5b3f153afe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 06:36:39</sys_updated_on>
+        <table>x_817992_practice_practice</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

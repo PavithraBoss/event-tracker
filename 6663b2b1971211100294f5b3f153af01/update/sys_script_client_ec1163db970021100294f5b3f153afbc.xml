@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>sample</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+// 	g_form.modified=false;
+
+
+// for(var i in g_form.modifiedFields) {
+
+
+//     g_form.fieldChanged(i, false);
+
+
+//     g_form.modifiedFields[i]=false;
+
+
+// }
+	
+
+
+    //Type appropriate comment here, and begin script below
+    /*var ga = new GlideAjax('sample');
+    ga.addParam('sysparm_name', 'func');
+    ga.getXMLAnswer(call);
+
+    function call(response) {
+
+        var members = JSON.parse(response);
+g_form.addErrorMessage(members);
+        //var members = response;
+        var m = JSON.stringify(members[0].name);
+		var n = JSON.stringify(members[0].name1);
+		g_form.addErrorMessage(m+n);
+        for (var i = 0; i < m.length; i++) {
+            g_form.addErrorMessage(m[i].name);
+            g_form.setValue('u_html',"'cost'+m+'expense'+n" );
+        }
+
+
+
+    }*/
+	//g_form.addErrorMessage(g_scratchpad.a);
+	//g_form.setValue('u_html.document.table.tbody.tr.td]','aaa');
+var strTable = '<table style="align:center; border-collapse: collapse;">';
+	strTable += '<tr><th>VM Name</th><th>Resource Group</th><th>OS Type</th></tr>';
+	
+for (var i = 0; i <4; i++) {
+
+
+         strTable += '<tr>';
+
+
+         strTable += '<td>' + 'ssss' + '</td>';
+
+
+         strTable += '<td>' +'sss' + '</td>';
+
+
+         strTable += '<td>' + 'sss' + '</td>';
+
+
+
+         strTable += '</tr>';
+
+
+}         
+
+
+
+
+strTable += '</table>';
+
+
+
+
+// then set value to the dynamic table string
+
+
+g_form.setValue('u_html', strTable);
+	var a=g_form.getDecimalValue('currency') ;
+	//g_form.addInfoMessage(a);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-03 06:52:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec1163db970021100294f5b3f153afbc</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>sample</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="practice" source="x_817992_practice">6663b2b1971211100294f5b3f153af01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="practice">6663b2b1971211100294f5b3f153af01</sys_scope>
+        <sys_update_name>sys_script_client_ec1163db970021100294f5b3f153afbc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 06:20:13</sys_updated_on>
+        <table>x_817992_practice_practice</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

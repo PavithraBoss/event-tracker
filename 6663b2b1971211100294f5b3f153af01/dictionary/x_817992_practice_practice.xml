@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="practice" max_length="40" name="x_817992_practice_practice" sizeclass="9" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Choice" max_length="40" name="choice" type="string">
+            <choice>
+                <element inactive_on_update="false" label="one" sequence="0" value="one"/>
+                <element inactive_on_update="false" label="two" sequence="1" value="two"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Currency" max_length="20" name="currency" type="currency"/>
+        <element dependent="table" dependent_on_field="table" label="Field" max_length="80" name="field" type="field_name" use_dependent_field="true"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element label="Num1" max_length="40" name="num1" type="integer"/>
+        <element label="Num2" max_length="40" name="num2" type="integer"/>
+        <element attributes="encode_utf8=false" label="same table ref" max_length="32" name="same_table_ref" reference="x_817992_practice_practice" type="reference"/>
+        <element attributes="base_start=true" label="Table" max_length="80" name="table" type="table_name"/>
+    </element>
+</database>

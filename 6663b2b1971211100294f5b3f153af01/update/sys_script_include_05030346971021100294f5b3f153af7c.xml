@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_817992_practice.display_br</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>display_br</name>
+        <script><![CDATA[var display_br = Class.create();
+display_br.prototype = {
+    initialize: function() {
+    },
+
+	func:function(a){
+	var b=5;
+		var c=a+b;
+		var obj={
+			cat:c
+		};
+		return (JSON.stringify(obj));
+},
+    type: 'display_br'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 17:43:10</sys_created_on>
+        <sys_id>05030346971021100294f5b3f153af7c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>display_br</sys_name>
+        <sys_package display_value="practice" source="x_817992_practice">6663b2b1971211100294f5b3f153af01</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="practice">6663b2b1971211100294f5b3f153af01</sys_scope>
+        <sys_update_name>sys_script_include_05030346971021100294f5b3f153af7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 17:46:22</sys_updated_on>
+    </sys_script_include>
+</record_update>
